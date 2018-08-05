@@ -1,0 +1,19 @@
+{
+  "name": "customer",
+  "version": "1.0.0",
+  "description": "An Amazon-like store front using Node.js and MySQL.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Malak55/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Malak55/Bamazon/issues"
+  },
+  "homepage": "https://github.com/Malak55/Bamazon#readme"
+}

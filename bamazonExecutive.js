@@ -32,7 +32,7 @@ function viewProductByDept(){
   //prints the items for sale and their details
   connection.query('SELECT * FROM Departments', function(err, res){
     if(err) throw err;
-    console.log('>>>>>>Product Sales by Department<<<<<<');
+    console.log('>Product Sales by Department<');
     console.log('----------------------------------------------------------------------------------------------------')
 
     for(var i = 0; i<res.length;i++){

@@ -33,7 +33,7 @@ function start(){
 
 //views all inventory
 function viewProducts(){
-  console.log('>>>>>>Viewing Products<<<<<<');
+  console.log('>Viewing Products<');
 
   connection.query('SELECT * FROM Products', function(err, res){
   if(err) throw err;
@@ -50,7 +50,7 @@ function viewProducts(){
 
 //views inventory lower than 5
 function viewLowInventory(){
-  console.log('>>>>>>Viewing Low Inventory<<<<<<');
+  console.log('>Viewing Low Inventory<');
 
   connection.query('SELECT * FROM Products', function(err, res){
   if(err) throw err;
@@ -69,7 +69,7 @@ function viewLowInventory(){
 
 //displays prompt to add more of an item to the store and asks how much
 function addToInventory(){
-  console.log('>>>>>>Adding to Inventory<<<<<<');
+  console.log('>Adding to Inventory<');
 
   connection.query('SELECT * FROM Products', function(err, res){
   if(err) throw err;
@@ -113,7 +113,7 @@ function addToInventory(){
 
 //allows manager to add a completely new product to store
 function addNewProduct(){
-  console.log('>>>>>>Adding New Product<<<<<<');
+  console.log('>Adding New Product<');
   var deptNames = [];
 
   //grab name of departments
